@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p id="demo"></p>
+
+  <script>
+  function changeButton() {
+    var btn = document.getElementById('myButton');
+    if (btn.value == "Hello")
+      btn.value = "World";
+      else
+        btn.value = "Hello";
+      }
+      //setInterval(changeButton, 2000);
+
+    function changeDiv() {
+      var dv = document.getElementById('myDiv');
+      dv.innerHTML += 'Hello My Friend!&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+    }
+
+    </script>
+    <input type="button" id="myButton" value="Hello" onClick="changeDiv();"/>
+
+    <div id="myDiv"></div>
+  </body>
+  </html>
