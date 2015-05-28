@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html style="margin-left:100px; margin-top:50px; margin-right:100px; margin-bottom:50px">
+
+<head>
+  <title>BYOT Device</title>
+  <center><h1>Can you BYOT?</h1></center>
+  <p text-align="justify">Use this document to work out whether your device(s) meet the AIS BYOT requirements. Fill in the name of the devices you are planning to bring in white space under Device 1, Device 2, Device 3. Read the questions in the column and click on the checkbox to check whether your device meet that requirement in the relevant space provided. Once you have answered all the questions, you should be able to see whether your devices meet the AIS BYOT requirements, and whether there are any requirements you need to fulfil before start of school."</p>
+  <script type="text/javascript">
+  function check1(){
+    var myBackgroundColor = "lime";
+    if (!document.getElementById("5.1").checked) myBackgroundColor = "red";
+    if (!document.getElementById("6.1").checked) myBackgroundColor = "red";
+    if (!document.getElementById("7.1").checked) myBackgroundColor = "red";
+    if (!document.getElementById("8.1").checked) myBackgroundColor = "red";
+    if (!document.getElementById("9.1").checked) myBackgroundColor = "red";
+    if (!document.getElementById("10.1").checked) myBackgroundColor = "red";
+    document.getElementById("deviceOne").style.backgroundColor = myBackgroundColor;
+    check4;
+  }
+  function check2(){
+    var myBackgroundColor = "lime";
+    if (!document.getElementById("5.2").checked) myBackgroundColor = "red";
+    if (!document.getElementById("6.2").checked) myBackgroundColor = "red";
+    if (!document.getElementById("7.2").checked) myBackgroundColor = "red";
+    if (!document.getElementById("8.2").checked) myBackgroundColor = "red";
+    if (!document.getElementById("9.2").checked) myBackgroundColor = "red";
+    if (!document.getElementById("10.2").checked) myBackgroundColor = "red";
+    document.getElementById("deviceTwo").style.backgroundColor = myBackgroundColor;
+    check4;
+  }
+  function check3(){
+    var myBackgroundColor = "lime";
+    if (!document.getElementById("5.3").checked) myBackgroundColor = "red";
+    if (!document.getElementById("6.3").checked) myBackgroundColor = "red";
+    if (!document.getElementById("7.3").checked) myBackgroundColor = "red";
+    if (!document.getElementById("8.3").checked) myBackgroundColor = "red";
+    if (!document.getElementById("9.3").checked) myBackgroundColor = "red";
+    if (!document.getElementById("10.3").checked) myBackgroundColor = "red";
+    document.getElementById("deviceThree").style.backgroundColor = myBackgroundColor;
+    check4;
+  }
+  function check4(){
+    var passed = check1||check2||check3
+      if (document.getElementById("").checked)
+
+
+  }
+  function finalCheck(){
+    if (document.getElementById("5.1").checked)
+      if (document.getElementById("6.1").checked)
+        if (document.getElementById("7.1").checked)
+          if (document.getElementById("8.1").checked)
+            if (document.getElementById("9.1").checked)
+              if (document.getElementById("10.1").checked)
+                if (document.getElementById("5.2").checked)
+                  if (document.getElementById("6.2").checked)
+                    if (document.getElementById("7.2").checked)
+                      if (document.getElementById("8.2").checked)
+                        if (document.getElementById("9.2").checked)
+                          if (document.getElementById("10.2").checked)
+                            if (document.getElementById("5.3").checked)
+                              if (document.getElementById("6.3").checked)
+                                if (document.getElementById("7.3").checked)
+                                  if (document.getElementById("8.3").checked)
+                                    if (document.getElementById("9.3").checked)
+                                      if (document.getElementById("10.3").checked)
+                                        alert("You are ready to go!");
+  }
+</script>
+</head>
+<br>
+<body>
+<center><table border="1">
+   <tr>
+     <th></th>
+     <th id="deviceOne">Device 1:</th>
+     <th id="deviceTwo">Device 2:</th>
+     <th id="deviceThree">Device 3:</th>
+   </tr>
+   <tr>
+     <th>Name of Device &#8594;</th>
+     <td><center><input type="text"></input></center></td>
+     <td><center><input type="text"></input></center></td>
+     <td><center><input type="text"></input></center></td>
+   </tr>
+   <tr>
+     <th>Questions:</th>
+     <td></td>
+     <td></td>
+     <td></td>
+   </tr>
+  <tr>
+    <td>1. Is the screen 9" or larger (from corner to corner)?</td>
+    <td><center><input type="checkbox" id="1.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="1.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="1.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>2. Does it have a physical keyboard?</td>
+    <td><center><input type="checkbox" id="2.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="2.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="2.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>3. Is this a handheld device?</td>
+    <td><center><input type="checkbox" id="3.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="3.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="3.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>4. Does this device have a camera that can record photos, video and sound easily?</td>
+    <td><center><input type="checkbox" id="4.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="4.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="4.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>5. Does this device have 802.11n wifi?</td>
+    <td><center><input type="checkbox" id="5.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="5.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="5.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>6. Do the batteries last 6+ hours?</td>
+    <td><center><input type="checkbox" id="6.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="6.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="6.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>7. Does the device have a modern web browser?</td>
+    <td><center><input type="checkbox" id="7.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="7.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="7.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>8. Can you access Moodle (eaglenet.ais.edu.hk) on this device?</td>
+    <td><center><input type="checkbox" id="8.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="8.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="8.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>9. Can you access and log into Google Drive (drive.google.com) on this device?</td>
+    <td><center><input type="checkbox" id="9.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="9.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="9.3" onclick="check3();"></center></td>
+  </tr>
+  <tr>
+    <td>10. Can you comfortably carry this device to and from school everyday?</td>
+    <td><center><input type="checkbox" id="10.1" onclick="check1();"></center></td>
+    <td><center><input type="checkbox" id="10.2" onclick="check2();"></center></td>
+    <td><center><input type="checkbox" id="10.3" onclick="check3();"></center></td>
+  </tr>
+</table></center>
+<br>
+
+</body>
+</html>
